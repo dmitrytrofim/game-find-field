@@ -37,7 +37,7 @@ function checkChoice(field: number) {
   startParams.value.finish = true;
   setTimeout(() => {
    Object.assign(startParams.value, { ...RESET });
-  }, 1000);
+  }, 200);
  }
 }
 </script>
